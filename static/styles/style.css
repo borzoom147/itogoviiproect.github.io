@@ -1,0 +1,50 @@
+span {
+    font-style: italic;
+}
+
+
+
+ul {
+    list-style: none;
+    margin: 0.3em 0;
+    padding: 0;
+}
+
+.spisok {
+
+    display: table;
+    padding: 7px;
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    padding: 5px;
+    font-size: 95%;
+}
+
+.spisok-dva {
+    margin: 0 0 0 2em;
+    list-style: none;
+    margin: 0.3em 0;
+    padding: 0;
+    text-align: left;
+    font-size: 95%;
+    margin-left: 25px;
+}
+
+.spisok>p {
+    text-align: center;
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    font-weight: bold;
+}
+
+.img {
+    float: right;
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    border: 1px solid var(--border-color-base, #a2a9b1);
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 50px
+}
